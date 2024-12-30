@@ -54,7 +54,7 @@ function Main() {
             <h1 className="flex flex-col">
               <span className="text-5xl md:text-8xl pb-4 font-bold">Ratatouille the Cooking Rat</span>
               <span>$COOK 👨‍🍳is a safe nanocap started with only 20$ mcap for provide at holders amazing gains, join in the
-                next moonshoot in bsc🚀 Let's $COOK Together 👨‍🍳🔥</span>
+                next moonshoot in bsc🚀 Let&apos;s $COOK Together 👨‍🍳🔥</span>
               <div className="flex flex-row gap-8 mt-4">
                 <Link href="#" className="bg-green-700 text-white rounded-md px-8 py-2 font-bold">Buy now</Link>
                 <Link href="#" className="border-neutral-700 border-2 bg-neutral-900 text-white rounded-md px-8 py-2">Chart</Link>
