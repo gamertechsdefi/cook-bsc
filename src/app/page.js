@@ -10,6 +10,7 @@ import dexscreener from "@/app/images/dexscreener_white.png";
 import dextools from "@/app/images/DEXTools.png";
 import pcsIcon from "@/app/images/mono-white.png";
 import poocoin from "@/app/images/poocoin.png";
+import BuyPage from "@/components/BuyNow";
 
 
 export default function Home() {
@@ -124,14 +125,16 @@ function Main() {
           </div>
         </section>
 
+        <BuyPage />
+        
+        <FAQ />
+
         <section className="px-8 py-16 ">
           <h1 className="text-3xl font-bold pb-4">Join the vision</h1>
           <p>
             Join our growing community as we cook up massive gains together. Real nanocap gem with huge X potential and strategic marketing plans.
           </p>
         </section>
-
-        <FAQ />
       </div>
     </main>
   );
