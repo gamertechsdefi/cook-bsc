@@ -33,7 +33,7 @@ function Main() {
             </div>
 
             <div className="hidden sm:block">
-              <h1>Welcome to the Cook Movement</h1>
+              <h1 className="2xl">Welcome to the Cook Movement</h1>
             </div>
 
             <div className="flex items-center space-x-6">
@@ -65,8 +65,9 @@ function Main() {
               <span className="text-xl">$COOK 👨‍🍳is a safe nanocap started with only 20$ mcap for provide at holders amazing gains, join in the
                 next moonshoot in bsc🚀 Let&apos;s $COOK Together 👨‍🍳🔥</span>
               <div className="flex flex-row gap-8 mt-4">
-                <Link href="#" className="bg-green-700 text-white rounded-md px-4 py-2 ">Buy now</Link>
-                <Link href="#" className="border-neutral-700 border-2 bg-neutral-900 text-white rounded-md px-4  py-2">Chart</Link>
+                <Link href="https://pancakeswap.finance/?outputCurrency=0x6B63BdD1Faf16A8EBa9b06ae6dBD2cc15ba31466" className="bg-green-700 text-white rounded-md px-4 py-2 ">Buy now</Link>
+                <Link href="https://www.dexscreener.com/bsc/0x17d127842c177cd40d449105d9443BA9888bB7EC" 
+                className="border-neutral-700 border-2 bg-neutral-900 text-white text-xl rounded-md px-4 py-2">Chart</Link>
               </div>
             </h1>
             <Image src={cookbsc} alt="cook bsc logo" width={300} className="rounded-lg" />
@@ -82,10 +83,10 @@ function Main() {
             <div className="px-8 py-16 flex flex-col items-center">
               <h1 className="text-5xl md:text-7xl pb-8  text-[#fcc029]">Our Partners</h1>
               <div className="flex flex-col md:flex-row items-center gap-8">
-                <a href="https://dexscreener.com/bsc/0x6183b70d5b0d81aa4163ff02d3aa451ec1c3d200"><Image src={dexscreener} alt="dexscreener" className="w-52 object-contain" /></a>
-                <a href="https://www.dextools.io/app/en/bnb/pair-explorer/0x6183b70d5b0d81aa4163ff02d3aa451ec1c3d200?t=1731351025635"><Image src={dextools} alt="dextools" className="w-52 object-contain" /></a>
-                <a href="https://pancakeswap.finance/?outputCurrency=0xa2b1d88570949a761D640b7C1b08a17CBb8F823c"><Image src={pcsIcon} alt="dextools" className="w-52 object-contain" /></a>
-                <a href="https://poocoin.app/tokens/0xa2b1d88570949a761d640b7c1b08a17cbb8f823c"><Image src={poocoin} alt="dextools" className="w-52 object-contain" /></a>
+                <a href="https://www.dextools.io/app/en/bsc/pair-explorer/0x17d127842c177cd40d449105d9443BA9888bB7EC"><Image src={dexscreener} alt="dexscreener" className="w-52 object-contain" /></a>
+                <a href="https://www.dextools.io/app/en/bsc/pair-explorer/0x17d127842c177cd40d449105d9443BA9888bB7EC"><Image src={dextools} alt="dextools" className="w-52 object-contain" /></a>
+                <a href="https://pancakeswap.finance/?outputCurrency=0x6B63BdD1Faf16A8EBa9b06ae6dBD2cc15ba31466"><Image src={pcsIcon} alt="pancakeswap" className="w-52 object-contain" /></a>
+                <a href="https://poocoin.app/tokens/0x6B63BdD1Faf16A8EBa9b06ae6dBD2cc15ba31466"><Image src={poocoin} alt="dextools" className="w-52 object-contain" /></a>
               </div>
             </div>
           </div>
