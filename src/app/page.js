@@ -59,7 +59,7 @@ function Main() {
       </header>
       <div>
         <section className="min-h-screen px-4 py-8">
-          <div className="bg-yellow-300 border-[2px] border-black px-8 py-8 rounded-lg flex flex-col md:flex-row gap-8">
+          <div className="bg-yellow-300 border-l-2 border-t-2 border-b-8 border-r-8  border-black px-8 py-8 rounded-lg flex flex-col md:flex-row gap-8">
             <h1 className="flex flex-col">
               <span className="text-5xl md:text-8xl pb-4 font-bold">Ratatouille the Cooking Rat</span>
               <span>$COOK 👨‍🍳is a safe nanocap started with only 20$ mcap for provide at holders amazing gains, join in the
@@ -72,7 +72,7 @@ function Main() {
             <Image src={cookbsc} alt="cook bsc logo" width={300} className="rounded-lg" />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-4 border-2 border-neutral-600 bg-neutral-900 rounded-lg">
+          <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-4 border-2 border-b-8  border-neutral-600 bg-neutral-900 rounded-lg">
             <div className="bg-[#fcc029] px-4 py-4 rounded-lg">
               <h1 className="text-2xl font-bold">About $COOK</h1>
               <p>Ratatouille ($COOK) is a community-driven BSC token launched at $20 mcap, featuring burned liquidity and anti-whale
