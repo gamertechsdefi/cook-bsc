@@ -29,7 +29,7 @@ const FAQ = () => {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-16">
-      <h2 className="text-3xl font-bold text-center mb-12 text-[#fcc029]">Frequently Asked Questions</h2>
+      <h2 className="text-5xl font-bold text-center mb-12 text-[#fcc029]">Frequently Asked Questions</h2>
       
       <div className="space-y-4">
         {faqs.map((faq, index) => (
@@ -41,7 +41,7 @@ const FAQ = () => {
               className="w-full px-6 py-4 flex justify-between items-center text-left text-white hover:bg-neutral-700"
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
             >
-              <span className="font-medium text-lg">{faq.question}</span>
+              <span className="font-medium text-xl">{faq.question}</span>
               {openIndex === index ? (
                 <ChevronUp className="w-5 h-5 text-[#fcc029]" />
               ) : (
@@ -50,7 +50,7 @@ const FAQ = () => {
             </button>
             
             {openIndex === index && (
-              <div className="px-6 py-4 text-gray-300 bg-neutral-800 border-t border-neutral-700">
+              <div className="px-6 py-4 text-gray-300 text-xl bg-neutral-800 border-t border-neutral-700">
                 {faq.answer}
               </div>
             )}

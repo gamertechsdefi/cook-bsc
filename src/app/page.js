@@ -61,11 +61,11 @@ function Main() {
         <section className="min-h-screen px-4 py-8">
           <div className="bg-yellow-300 border-l-2 border-t-2 border-b-8 border-r-8  border-black px-8 py-8 rounded-lg flex flex-col md:flex-row gap-8">
             <h1 className="flex flex-col">
-              <span className="text-5xl md:text-8xl pb-4 font-bold">Ratatouille the Cooking Rat</span>
-              <span>$COOK 👨‍🍳is a safe nanocap started with only 20$ mcap for provide at holders amazing gains, join in the
+              <span className="text-6xl md:text-9xl pb-4 ">Ratatouille the Cooking Rat</span>
+              <span className="text-xl">$COOK 👨‍🍳is a safe nanocap started with only 20$ mcap for provide at holders amazing gains, join in the
                 next moonshoot in bsc🚀 Let&apos;s $COOK Together 👨‍🍳🔥</span>
               <div className="flex flex-row gap-8 mt-4">
-                <Link href="#" className="bg-green-700 text-white rounded-md px-4 py-2 font-bold">Buy now</Link>
+                <Link href="#" className="bg-green-700 text-white rounded-md px-4 py-2 ">Buy now</Link>
                 <Link href="#" className="border-neutral-700 border-2 bg-neutral-900 text-white rounded-md px-4  py-2">Chart</Link>
               </div>
             </h1>
@@ -74,13 +74,13 @@ function Main() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-4 border-2 border-b-8  border-neutral-600 bg-neutral-900 rounded-lg">
             <div className="bg-[#fcc029] px-4 py-4 rounded-lg">
-              <h1 className="text-2xl font-bold">About $COOK</h1>
-              <p>Ratatouille ($COOK) is a community-driven BSC token launched at $20 mcap, featuring burned liquidity and anti-whale
+              <h1 className="text-4xl pb-4 ">About $COOK</h1>
+              <p className="text-xl">Ratatouille ($COOK) is a community-driven BSC token launched at $20 mcap, featuring burned liquidity and anti-whale
                 mechanics. We aim to create massive gains through strategic marketing and strong community growth.</p>
             </div>
 
             <div className="px-8 py-16 flex flex-col items-center">
-              <h1 className="text-3xl pb-8 font-bold text-[#fcc029]">Our Partners</h1>
+              <h1 className="text-5xl md:text-7xl pb-8  text-[#fcc029]">Our Partners</h1>
               <div className="flex flex-col md:flex-row items-center gap-8">
                 <a href="https://dexscreener.com/bsc/0x6183b70d5b0d81aa4163ff02d3aa451ec1c3d200"><Image src={dexscreener} alt="dexscreener" className="w-52 object-contain" /></a>
                 <a href="https://www.dextools.io/app/en/bnb/pair-explorer/0x6183b70d5b0d81aa4163ff02d3aa451ec1c3d200?t=1731351025635"><Image src={dextools} alt="dextools" className="w-52 object-contain" /></a>
@@ -93,20 +93,20 @@ function Main() {
           <div className="grid grid-cols-1 md:grid-cols-3 mt-8 gap-4">
             <div className="bg-[#fcc029] px-4 py-4 rounded-lg">
               <Shield className="w-12 h-12 text-black mb-4" />
-              <h1 className="text-2xl font-bold">Safe Launch</h1>
-              <p>Contract verified & renounced with burned liquidity</p>
+              <h1 className="text-4xl ">Safe Launch</h1>
+              <p className="text-xl">Contract verified & renounced with burned liquidity</p>
             </div>
 
             <div className="bg-[#fcc029] px-4 py-4 rounded-lg">
               <Lock className="w-12 h-12 text-black mb-4" />
-              <h1 className="text-2xl font-bold">Protected</h1>
-              <p>1% max wallet to prevent whales</p>
+              <h1 className="text-4xl ">Protected</h1>
+              <p className="text-xl">1% max wallet to prevent whales</p>
             </div>
 
             <div className="bg-[#fcc029] px-4 py-4 rounded-lg">
               <Flame className="w-12 h-12 text-black mb-4" />
-              <h1 className="text-2xl font-bold">Low tax</h1>
-              <p>5-5 tax (1% Burn, 4% Marketing)</p>
+              <h1 className="text-4xl ">Low tax</h1>
+              <p className="text-xl">5-5 tax (1% Burn, 4% Marketing)</p>
             </div>
           </div>
         </section>
@@ -116,11 +116,11 @@ function Main() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="text-white bg-neutral-900 px-4 py-4 rounded-lg">
               <p className="pb-4">Total Supply</p>
-              <p className="text-3xl font-bold text-[#fcc029]">1,000,000,000,000</p>
+              <p className="text-4xl  text-[#fcc029]">1,000,000,000,000</p>
             </div>
             <div className="text-white bg-neutral-900 px-4 py-4 rounded-lg">
               <p className="pb-4">Initial Marketcap</p>
-              <p className="text-3xl font-bold text-[#fcc029]">$100</p>
+              <p className="text-4xl  text-[#fcc029]">$45</p>
             </div>
           </div>
         </section>
@@ -130,8 +130,8 @@ function Main() {
         <FAQ />
 
         <section className="px-8 py-16 ">
-          <h1 className="text-3xl font-bold pb-4">Join the vision</h1>
-          <p>
+          <h1 className="text-5xl  pb-4">Join the vision</h1>
+          <p className="text-xl">
             Join our growing community as we cook up massive gains together. Real nanocap gem with huge X potential and strategic marketing plans.
           </p>
         </section>
